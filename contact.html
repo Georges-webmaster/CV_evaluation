@@ -11,9 +11,14 @@
     <div class="container">
       <nav class="menunav">
         <ul >
-          <li class="menu_bloc">Accueil</li>
-          <li class="menu_bloc">Cv</liclass=>
-          <li class="menu_bloc">Contact</li>
+          <li class="menu_bloc"> <a href="index.html">Accueil</a>
+            
+          </li>
+          <li class="menu_bloc"> <a href="cv.html">CV</a>
+            </liclass=>
+          <li class="menu_bloc"> <a href="contact.html">Contact</a>
+            
+    </li>
         </ul>
       </nav>
 
@@ -31,76 +36,97 @@
           <img src="img/php.jpg" alt="Compétences PHP" />
         </div>
 
-        <aside>
+        <aside>       
           <div>
-            <h1 class="txtname">Mes compétences</h1>
-          </div>
-
-          <div>
-            <h1>
+            <h1 class="txtname">
                 Me contacter :
             </h1>
 
-<div>
-<p>Nom</p>
+ </div>
 
- <form action="" method="post"></form>
-<label for="name">
+ <form action="" method="post">
+
+
+ 
+
+<div>
+
+  <p>Nom :</p>
+
+<label for="name"> 
 
 </label>
-<input type="text" id="name" name="name" />
+<input class="input_form" type="text" id="name" name="name" 
+placeholder="Saisissez votre Nom"/>
 
 </div>
 
 
 <div>
-<p>Prénom</p>
+<p>Prénom :</p>
 
- <form action="" method="post"></form>
-<label for="name">
+<label for="surname">
 
 </label>
-<input type="text" id="name" name="name" />
+<input class="input_form" type="text" id="surname" name="surname" placeholder="Saisissez votre prénom"/>
 
 </div>
 
 <div>
-<p>Mail</p>
+<p>E-mail:</p>
 
- <form action="" method="post"></form>
-<label for="name">
+<label for="mail">
 
 </label>
-<input type="text" id="name" name="name" />
+<input class="input_form" type="text" id="mail" name="mail" placeholder="Saisissez votre e-mail"/>
 
 </div>
            
 <div>
 <p>Votre message</p>
 
- <form action="" method="post"></form>
-<label for="name">
+
+<label for="message">
 
 </label>
-<input type="text" id="name" name="name" />
+
+            <textarea
+              name="commentaire"
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Votre commentaire ici. Max 500chars."
+            maxlength="500"></textarea>
+
+
 
 </div>
+            
+ </form>
 
+ <div class="button_form">
+<button class="btn">Envoyer</button>
+ <button>Effacer</button>
 
-            </form>
-
-          </div>
+ </div>
+ 
+         
         </aside>
       </section>
 
       <footer>
         <div>
           <ul class="footer_color">
-            <li>Accueil</li>
-            <li>Cv</li>
+            <li> <a href="index.html">Accueil</a>
+            </li>
+            <li><a href="cv.html">Cv</a>
+              
+              </li>
 
-            <li>Contact</li>
-            <li>Mentions légales</li>
+            <li><a href="contact.html">Contact</a></li>
+            <li> <a href="">Mentions légales</a>
+              
+              </li>
           </ul>
         </div>
       </footer>
