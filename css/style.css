@@ -11,7 +11,18 @@
 .menu_bloc {
   list-style: none;
   margin-right: 20px;
+  
 }
+
+.menu_bloc a
+{
+text-decoration: none;
+color: #ffffff;
+}
+
+
+
+
 
 .menunav ul {
   display: flex;
@@ -19,7 +30,6 @@
   margin-left: 800px;
   height: 40px;
   padding-top: 20px;
-  color: #ffffff;
 }
 
 section {
@@ -31,13 +41,27 @@ section {
   margin-bottom: 20px;
 }
 
+.format_contour
+
+{
+border-left: 3px #002d3d dotted;
+padding-left: 20px;
+}
+
 .txtname {
   font-size: 24px;
+  color: #0097CF;
+}
+
+.titleblue
+{
+  color: #0097CF;
 }
 
 .imgalign {
   display: flex;
   flex-direction: column;
+  padding-right: 20px;
 }
 
 .imgalign img {
