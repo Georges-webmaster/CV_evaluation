@@ -1,0 +1,15 @@
+Accueil
+NOM
+Chef de projet digital
+
+Mes compétences
+
+
+    HTML, CSS, JavaScript, PHP &MySQL.
+    Gestion de projet (Agile, Scrum)
+    Respect des standards W3C et des bonnes pratiques du web.
+    Gestion de projet web & mobile
+    Compétences managériales (projet et personnes)
+
+
+
