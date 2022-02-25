@@ -42,7 +42,7 @@ section {
 
 .txtname {
   font-size: 24px;
-  color: #0097cf;
+  color: #000000;
 }
 
 .titleblue {
@@ -76,6 +76,11 @@ textarea {
 
 .btn {
   margin-bottom: 20px;
+  background-color: #0097cf;
+  height: 40px;
+  border-radius: 20px;
+  border: solid 3px #ffffff;
+  color: #ffffff;
 }
 
 footer {
